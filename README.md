@@ -4,9 +4,9 @@ A ComfyUI custom node that generates SCAIL-2 videos of any length in a single qu
 
 ## Examples
 
-https://github.com/Brobert-in-aus/scail-auto-extend/raw/main/Example_Video.mp4
+https://github.com/user-attachments/assets/ee4ea6c3-a1ca-47ce-9fe0-537cb69b431f
 
-https://github.com/Brobert-in-aus/scail-auto-extend/raw/main/Example_Video_2.mp4
+https://github.com/user-attachments/assets/c3a18739-da55-408e-8903-51757cc6530e
 
 ## What it does
 
