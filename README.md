@@ -23,7 +23,7 @@ It calls ComfyUI's own `WanSCAILToVideo`, `SamplerCustom`, and `ColorTransfer` i
 
 ## Requirements
 
-- ComfyUI with the SCAIL-2 nodes ([currently requires PR #14373](https://github.com/Comfy-Org/ComfyUI/pull/14373))
+- ComfyUI with the SCAIL-2 nodes (merged June 2026 — update to a recent ComfyUI)
 - SCAIL-2 models: https://huggingface.co/Comfy-Org/SCAIL-2/tree/main/diffusion_models
 
 The bundled example workflow additionally uses:
