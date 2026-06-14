@@ -2,7 +2,7 @@
   "id": "5f6b718d-6f1c-4005-bd15-45ff066b8a51",
   "revision": 0,
   "last_node_id": 223,
-  "last_link_id": 508,
+  "last_link_id": 509,
   "nodes": [
     {
       "id": 132,
@@ -1007,47 +1007,6 @@
       "bgcolor": "#355"
     },
     {
-      "id": 4,
-      "type": "CLIPTextEncode",
-      "pos": [
-        1806.4121588628723,
-        4983.701210269096
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 24,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 8
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            449
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 24,
       "type": "GetNode",
       "pos": [
@@ -1238,7 +1197,7 @@
       ],
       "size": [
         792.1812721052838,
-        636.5930006858132
+        628.7931898564668
       ],
       "flags": {},
       "order": 58,
@@ -1295,12 +1254,12 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "clip_Triple_00033.mp4",
+            "filename": "clip_Triple_00051.mp4",
             "subfolder": "SCAIL2\\2026-06-14",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 16,
-            "workflow": "clip_Triple_00033.png"
+            "workflow": "clip_Triple_00051.png"
           }
         }
       }
@@ -1314,7 +1273,7 @@
       ],
       "size": [
         436.47427412286015,
-        581.4780021597852
+        575.1677858851965
       ],
       "flags": {},
       "order": 54,
@@ -1371,12 +1330,12 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "clip_Single_00035.mp4",
+            "filename": "clip_Single_00053.mp4",
             "subfolder": "SCAIL2\\2026-06-14",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 32,
-            "workflow": "clip_Single_00035.png"
+            "workflow": "clip_Single_00053.png"
           }
         }
       }
@@ -1528,7 +1487,7 @@
       ],
       "size": [
         792.1812721052838,
-        1213.7790020574394
+        1190.3795695694007
       ],
       "flags": {},
       "order": 56,
@@ -1585,50 +1544,15 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "clip_Double_00033.mp4",
+            "filename": "clip_Double_00051.mp4",
             "subfolder": "SCAIL2\\2026-06-14",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 16,
-            "workflow": "clip_Double_00033.png"
+            "workflow": "clip_Double_00051.png"
           }
         }
       }
-    },
-    {
-      "id": 152,
-      "type": "PrimitiveNode",
-      "pos": [
-        858.1259501832619,
-        4913.6467407134905
-      ],
-      "size": [
-        210,
-        60
-      ],
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "widget": {
-            "name": "replacement_mode"
-          },
-          "links": [
-            401
-          ]
-        }
-      ],
-      "title": "replacement_mode",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        true
-      ]
     },
     {
       "id": 179,
@@ -1910,7 +1834,7 @@
         246.71414022020326
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1931,7 +1855,7 @@
       ],
       "size": [
         399.93744417948983,
-        560.9952338581988
+        555.2386059160854
       ],
       "flags": {},
       "order": 41,
@@ -1988,12 +1912,12 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "Wan21_SCAIL2_00011.mp4",
+            "filename": "Wan21_SCAIL2_00019.mp4",
             "subfolder": "",
             "type": "temp",
             "format": "video/h264-mp4",
             "frame_rate": 16,
-            "workflow": "Wan21_SCAIL2_00011.png"
+            "workflow": "Wan21_SCAIL2_00019.png"
           }
         }
       }
@@ -2012,7 +1936,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2049,7 +1973,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2084,7 +2008,7 @@
         128.328125
       ],
       "flags": {},
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2199,89 +2123,6 @@
       ]
     },
     {
-      "id": 184,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        83.25242511651399,
-        5129.780829719557
-      ],
-      "size": [
-        239.06893177313827,
-        348
-      ],
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 491
-        },
-        {
-          "name": "mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": null
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 479
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 480
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            481
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "1.4.4",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        512,
-        896,
-        "lanczos",
-        "pad",
-        "1,1,1",
-        "bottom",
-        32,
-        "cpu"
-      ]
-    },
-    {
       "id": 218,
       "type": "RMBG",
       "pos": [
@@ -2341,236 +2182,24 @@
       "bgcolor": "#364254"
     },
     {
-      "id": 30,
-      "type": "LoadImage",
-      "pos": [
-        376.65825967121594,
-        4546.011344491202
-      ],
-      "size": [
-        298.3313126341949,
-        377.6947302337194
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            490
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "image-asset.jpeg",
-        "image"
-      ]
-    },
-    {
-      "id": 89,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        1011.2968727876112,
-        5350.116972976679
-      ],
-      "size": [
-        239.06893177313827,
-        348
-      ],
-      "flags": {},
-      "order": 38,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 228
-        },
-        {
-          "name": "mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": null
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 446
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 447
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            369
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": [
-            374,
-            479
-          ]
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": [
-            376,
-            480
-          ]
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "1.4.4",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        512,
-        896,
-        "lanczos",
-        "crop",
-        "0, 0, 0",
-        "center",
-        32,
-        "cpu"
-      ]
-    },
-    {
-      "id": 33,
-      "type": "VHS_LoadVideo",
-      "pos": [
-        398.38945491242157,
-        5008.150800123366
-      ],
-      "size": [
-        255.8291015625,
-        455.1830671111996
-      ],
-      "flags": {},
-      "order": 22,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "meta_batch",
-          "shape": 7,
-          "type": "VHS_BatchManager",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            228,
-            477
-          ]
-        },
-        {
-          "name": "frame_count",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "links": null
-        },
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
-        "ver": "1.7.9",
-        "Node name for S&R": "VHS_LoadVideo"
-      },
-      "widgets_values": {
-        "video": "3l3yyf5z0m491.gif",
-        "force_rate": 16,
-        "custom_width": 0,
-        "custom_height": 0,
-        "frame_load_cap": 81,
-        "skip_first_frames": 0,
-        "select_every_nth": 1,
-        "format": "AnimateDiff",
-        "videopreview": {
-          "hidden": false,
-          "paused": false,
-          "params": {
-            "filename": "3l3yyf5z0m491.gif",
-            "type": "input",
-            "format": "image/gif",
-            "force_rate": 16,
-            "custom_width": 0,
-            "custom_height": 0,
-            "frame_load_cap": 81,
-            "skip_first_frames": 0,
-            "select_every_nth": 1
-          }
-        }
-      }
-    },
-    {
-      "id": 3,
+      "id": 4,
       "type": "CLIPTextEncode",
       "pos": [
-        1807.4174543198553,
-        4695.0495506036905
+        1806.4121588628723,
+        4983.701210269096
       ],
       "size": [
         400,
         200
       ],
       "flags": {},
-      "order": 23,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 7
+          "link": 8
         }
       ],
       "outputs": [
@@ -2578,7 +2207,7 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            448
+            449
           ]
         }
       ],
@@ -2588,92 +2217,10 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Asuka strides through the hallway, a determined expression on her face."
+        ""
       ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 222,
-      "type": "SCAIL2IdentityTracker",
-      "pos": [
-        1182.4119507933838,
-        5894.288803957093
-      ],
-      "size": [
-        400,
-        594
-      ],
-      "flags": {},
-      "order": 33,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "sam3_model",
-          "type": "MODEL",
-          "link": 508
-        },
-        {
-          "name": "reference_image",
-          "type": "IMAGE",
-          "link": 501
-        },
-        {
-          "name": "pose_video",
-          "type": "IMAGE",
-          "link": 502
-        },
-        {
-          "name": "reference_conditioning",
-          "shape": 7,
-          "type": "CONDITIONING",
-          "link": 506
-        },
-        {
-          "name": "driving_conditioning",
-          "shape": 7,
-          "type": "CONDITIONING",
-          "link": 507
-        }
-      ],
-      "outputs": [
-        {
-          "name": "ref_track_data",
-          "type": "SAM3_TRACK_DATA",
-          "links": [
-            503
-          ]
-        },
-        {
-          "name": "driving_track_data",
-          "type": "SAM3_TRACK_DATA",
-          "links": [
-            504
-          ]
-        },
-        {
-          "name": "reference_image",
-          "type": "IMAGE",
-          "links": null
-        },
-        {
-          "name": "pose_video",
-          "type": "IMAGE",
-          "links": null
-        }
-      ],
-      "properties": {
-        "aux_id": "Brobert-in-aus/scail-auto-extend",
-        "ver": "20590c93e166c83d93a9c73a83ecd46a17f2f6f4",
-        "Node name for S&R": "SCAIL2IdentityTracker"
-      },
-      "widgets_values": [
-        2,
-        true,
-        0.5,
-        1,
-        "{}"
-      ]
+      "color": "#322",
+      "bgcolor": "#533"
     },
     {
       "id": 180,
@@ -2764,6 +2311,15 @@
             "name": "height"
           },
           "link": 459
+        },
+        {
+          "name": "replacement_mode",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "replacement_mode"
+          },
+          "link": 509
         }
       ],
       "outputs": [
@@ -2789,7 +2345,7 @@
       "widgets_values": [
         7424,
         896,
-        1,
+        4,
         "fixed",
         1,
         81,
@@ -2800,6 +2356,460 @@
         1,
         0,
         1,
+        true
+      ]
+    },
+    {
+      "id": 30,
+      "type": "LoadImage",
+      "pos": [
+        376.65825967121594,
+        4546.011344491202
+      ],
+      "size": [
+        298.3313126341949,
+        377.6947302337194
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            490
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "Hatsune_Miku_V2.png",
+        "image"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1807.4174543198553,
+        4695.0495506036905
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            448
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Hatsune Miku, the slender girl in a skirt, fights a group of men. The men are wearing white clothes."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 33,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        398.38945491242157,
+        5008.150800123366
+      ],
+      "size": [
+        255.8291015625,
+        456.68516329949574
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            228,
+            477
+          ]
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "1.7.9",
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "Ninja 2 Classic Fight Scene - Scott Adkins vs Dojo [jWE-Kk5380A]-2.webm",
+        "force_rate": 16,
+        "custom_width": 0,
+        "custom_height": 0,
+        "frame_load_cap": 0,
+        "skip_first_frames": 15,
+        "select_every_nth": 1,
+        "format": "AnimateDiff",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "Ninja 2 Classic Fight Scene - Scott Adkins vs Dojo [jWE-Kk5380A]-2.webm",
+            "type": "input",
+            "format": "video/webm",
+            "force_rate": 16,
+            "custom_width": 0,
+            "custom_height": 0,
+            "frame_load_cap": 0,
+            "skip_first_frames": 15,
+            "select_every_nth": 1
+          }
+        }
+      }
+    },
+    {
+      "id": 184,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        83.25242511651399,
+        5129.780829719557
+      ],
+      "size": [
+        239.06893177313827,
+        348
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 491
+        },
+        {
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": null
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 479
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 480
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            481
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "1.4.4",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        512,
+        896,
+        "lanczos",
+        "pad",
+        "1,1,1",
+        "bottom",
+        32,
+        "cpu"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        1039.0340507602402,
+        5345.047626417803
+      ],
+      "size": [
+        239.06893177313827,
+        348
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 228
+        },
+        {
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": null
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 446
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 447
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            369
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            374,
+            479
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            376,
+            480
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "1.4.4",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        512,
+        896,
+        "lanczos",
+        "crop",
+        "0, 0, 0",
+        "center",
+        32,
+        "cpu"
+      ]
+    },
+    {
+      "id": 222,
+      "type": "SCAIL2IdentityTracker",
+      "pos": [
+        1178.8919373656495,
+        5903.088803957089
+      ],
+      "size": [
+        400,
+        594
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sam3_model",
+          "type": "MODEL",
+          "link": 508
+        },
+        {
+          "name": "reference_image",
+          "type": "IMAGE",
+          "link": 501
+        },
+        {
+          "name": "pose_video",
+          "type": "IMAGE",
+          "link": 502
+        },
+        {
+          "name": "reference_conditioning",
+          "shape": 7,
+          "type": "CONDITIONING",
+          "link": 506
+        },
+        {
+          "name": "driving_conditioning",
+          "shape": 7,
+          "type": "CONDITIONING",
+          "link": 507
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ref_track_data",
+          "type": "SAM3_TRACK_DATA",
+          "links": [
+            503
+          ]
+        },
+        {
+          "name": "driving_track_data",
+          "type": "SAM3_TRACK_DATA",
+          "links": [
+            504
+          ]
+        },
+        {
+          "name": "reference_image",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "pose_video",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "aux_id": "Brobert-in-aus/scail-auto-extend",
+        "ver": "20590c93e166c83d93a9c73a83ecd46a17f2f6f4",
+        "Node name for S&R": "SCAIL2IdentityTracker"
+      },
+      "widgets_values": [
+        2,
+        true,
+        0.5,
+        1,
+        "{}"
+      ]
+    },
+    {
+      "id": 152,
+      "type": "PrimitiveNode",
+      "pos": [
+        858.1259501832619,
+        4913.6467407134905
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "replacement_mode"
+          },
+          "links": [
+            401,
+            509
+          ]
+        }
+      ],
+      "title": "replacement_mode",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
         true
       ]
     }
@@ -3292,6 +3302,14 @@
       222,
       0,
       "MODEL"
+    ],
+    [
+      509,
+      152,
+      0,
+      180,
+      13,
+      "BOOLEAN"
     ]
   ],
   "groups": [
@@ -3323,10 +3341,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.620921323059155,
+      "scale": 0.6830134553650712,
       "offset": [
-        -1583.0990260570281,
-        -3432.014129810087
+        -263.5881087154697,
+        -4033.576158921016
       ]
     },
     "frontendVersion": "1.45.15",
