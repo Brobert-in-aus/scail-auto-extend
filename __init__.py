@@ -100,6 +100,12 @@ class SCAILAutoExtend:
             raise ValueError(f"chunk_length ({chunk_length}) must exceed overlap "
                              f"({overlap}) by at least 4.")
 
+        if width % 32 != 0 or height % 32 != 0:
+            print(f"[SCAIL Auto Extend] WARNING: width/height ({width}x{height}) are not both "
+                  f"multiples of 32. The pose conditioning runs at half resolution, so non-32 "
+                  f"sizes leave its latent odd and the model circular-pads it -- which can copy "
+                  f"the top edge of the frame onto the bottom. Use multiples of 32.")
+
         n_input = pose_video.shape[0]
         n_eff, lengths = _plan_chunks(n_input, chunk_length, overlap)
         print(f"[SCAIL Auto Extend] {n_input} pose frames -> {n_eff} output frames, "
